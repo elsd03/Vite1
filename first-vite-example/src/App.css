@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 50px;
+  padding: 30px;
+  background-color: aqua;
+}
+
+label{
+  margin: 10px;
+}
+textarea{
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+input{
+  width: 250px;
+  background-color: bisque;
+  margin-top: 10px;
+}
+
+select{
+  width: 260px;
+  background-color: bisque;
+  margin: 10px;
+}
+
+.cheackbox{
+  width: 20px;
+}
+
+button{
+  cursor: pointer;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+}
