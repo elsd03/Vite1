@@ -54,8 +54,8 @@ const Form= () => {
         value={formData.gender}
         onChange={handleChange}
       >
-        <option value="">Kisi</option>
-        <option value="">Qadin</option>
+        <option value="Kisi">Kisi</option>
+        <option value="Qadin">Qadin</option>
       </select>
 
       <label>
